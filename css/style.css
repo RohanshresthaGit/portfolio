@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+.site-navbar{
+    margin: 0 100px;
+}
+.navbar{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: auto;
+}
+nav{
+    background-color: #fff;
+    padding: 10px 0;
+}
+.right-side{
+width: 50%;
+}
+.left-side{
+width: 50%;
+}
+#main-menu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 22px;
+    justify-content: space-around;
+    align-items: center;
+}
+#main-menu li{
+list-style: none;
+}
+#main-menu > li > a{
+    text-decoration: none;
+    color: initial;
+    font-size: 18px;
+}
+.left-side > a:hover{
+    color: deepskyblue;
+}
+.left-side > a{
+    text-decoration: none;
+    font-size: 25px;
+    color: initial;
+}
+#main-menu > li > a:hover{
+    color: deepskyblue;
+}
+.right-side > a{
+    text-decoration: none;
+    color: initial;
+}
+.hero-section-wrapper{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 80px 0;
+   
+}
+.hero-left-side{
+    width: 50%;
+}
+.hero-left-side > img{
+    width: 90%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+.hero-right-side{
+    width: 50%;
+}
+.hero-title{
+    font-size: 30px;
+}
+.hero-right-side > p{
+    margin: 20px 0;
+}
+.icons > a >i{
+    font-size: 30px;
+    color: deepskyblue;
+}
+
+.icons > a{
+    color: #0c9300;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.icons > a:hover{
+    position: relative;
+    bottom: 5px;
+}
+.highlight{
+    color:#0c9300
+}
+.icons > a:nth-child(even){
+    padding: 0 20px;
+}
+.section-wrapper{
+    width: 95%;
+    margin: auto;
+}
+.section-title-area{  
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+}
+.section-title::after{
+    content: "";
+    width: 60px;
+    height: 5px;
+    display: block;
+    background-color: #0c9300;
+    margin: 5px auto;
+}
+.service>*{
+    text-align: center;
+}
+.service{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    padding: 70px 0;
+}
+.service > div{
+    padding: 30px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius:0 35%;
+}
+.service > div:hover{
+    position: relative;
+    bottom: 30px;
+}
+.service > div > i{
+    font-size: 25px;
+    background-color: lightgreen;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50%;
+}
+.facebook:hover{
+    color: #1877F2;
+    font-size: 35px;
+}
+.instagram:hover{
+    color: #E4405F;
+    font-size: 35px;
+}
+.github:hover{
+    color:  #181717;
+    font-size: 35px;
+}
+.linkedin:hover{
+ color:  #0077B5;
+ font-size: 35px;
+}
+.service > div > p{
+    margin: 10px;
+}
+.form
+{
+    margin: auto;
+    padding: 50px 70px;
+    height: 650px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.form >form> label{
+    font-size: large;
+}
+.form > h2{
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+form{
+    margin: 30px 0;
+}
+.form >form> input{
+    padding: 10px;
+    height: 20px;
+    width: 450px;
+    border-radius: 50px;
+}
+form > button{
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 10px 80px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    background-color: #0077B5;
+}
+textarea{
+    padding: 10px;
+    height: 100px;
+    width: 450px;
+    resize: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
